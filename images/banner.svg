@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome Astra: GPT-6 Astra real use cases</title>
+  <desc id="desc">A dark indigo technical banner with an orbiting star symbol and the words Awesome Astra, Real Use Cases, OpenAI GPT-6 Astra, and Evidence Over Hype.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.55" stop-color="#0a1230"/>
+      <stop offset="1" stop-color="#171044"/>
+    </linearGradient>
+    <linearGradient id="orbital" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9b8cff"/>
+      <stop offset="0.5" stop-color="#5d7cff"/>
+      <stop offset="1" stop-color="#57e6ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b6a8ff"/>
+      <stop offset="1" stop-color="#5de2ff"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#655dff" stop-opacity="0.36"/>
+      <stop offset="0.55" stop-color="#3e7cff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#3e7cff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M 52 0 L 0 0 0 52" fill="none" stroke="#a3b6ff" stroke-opacity="0.055" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.2" fill="#a3b6ff" fill-opacity="0.14"/>
+    </pattern>
+    <pattern id="microgrid" width="13" height="13" patternUnits="userSpaceOnUse">
+      <path d="M 13 0 L 0 0 0 13" fill="none" stroke="#7d87e8" stroke-opacity="0.025" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1672" height="941" fill="url(#bg)"/>
+  <rect width="1672" height="941" fill="url(#grid)"/>
+  <rect width="1672" height="941" fill="url(#microgrid)"/>
+  <ellipse cx="1310" cy="462" rx="405" ry="405" fill="url(#halo)" filter="url(#softGlow)"/>
+
+  <g fill="#d8e3ff">
+    <circle cx="110" cy="128" r="2" opacity="0.7"/>
+    <circle cx="278" cy="764" r="1.5" opacity="0.5"/>
+    <circle cx="476" cy="176" r="1.5" opacity="0.55"/>
+    <circle cx="650" cy="820" r="2" opacity="0.42"/>
+    <circle cx="815" cy="102" r="1.4" opacity="0.55"/>
+    <circle cx="946" cy="707" r="1.5" opacity="0.55"/>
+    <circle cx="1150" cy="150" r="1.5" opacity="0.55"/>
+    <circle cx="1498" cy="178" r="2" opacity="0.72"/>
+    <circle cx="1580" cy="704" r="1.4" opacity="0.55"/>
+  </g>
+
+  <g fill="none" stroke="#8297ff" stroke-opacity="0.15" stroke-width="2">
+    <path d="M 0 236 H 238 L 302 172 H 392"/>
+    <path d="M 80 866 H 340 L 402 804 H 590"/>
+    <path d="M 1520 76 H 1602 L 1672 146"/>
+    <path d="M 1460 855 H 1572 L 1634 793 H 1672"/>
+  </g>
+  <g fill="#91a6ff" fill-opacity="0.33">
+    <circle cx="238" cy="236" r="4"/>
+    <circle cx="340" cy="866" r="4"/>
+    <circle cx="1520" cy="76" r="4"/>
+    <circle cx="1460" cy="855" r="4"/>
+  </g>
+
+  <g transform="translate(1302 462)" fill="none" stroke="url(#orbital)" filter="url(#glow)">
+    <ellipse rx="278" ry="104" stroke-width="6" opacity="0.9" transform="rotate(-24)"/>
+    <ellipse rx="278" ry="104" stroke-width="4" opacity="0.72" transform="rotate(38)"/>
+    <ellipse rx="278" ry="104" stroke-width="3" opacity="0.52" transform="rotate(88)"/>
+    <path d="M 0 -188 L 42 -42 L 188 0 L 42 42 L 0 188 L -42 42 L -188 0 L -42 -42 Z" fill="#6b63ff" fill-opacity="0.18" stroke-width="5"/>
+    <path d="M 0 -142 L 31 -31 L 142 0 L 31 31 L 0 142 L -31 31 L -142 0 L -31 -31 Z" fill="#a7a0ff" fill-opacity="0.17" stroke-width="3"/>
+    <circle r="31" fill="#eef1ff" fill-opacity="0.95" stroke="#ffffff" stroke-width="3"/>
+    <circle r="12" fill="#5fe5ff" stroke="none"/>
+  </g>
+  <g fill="#c2caff" filter="url(#glow)">
+    <circle cx="1030" cy="270" r="6"/>
+    <circle cx="1570" cy="374" r="5"/>
+    <circle cx="1398" cy="756" r="5"/>
+  </g>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#f7f8ff">
+    <text x="112" y="188" font-size="29" letter-spacing="7" font-weight="600" fill="#9ea9ff">OPENAI GPT-6 ASTRA</text>
+    <text x="108" y="374" font-size="112" letter-spacing="-4" font-weight="700">AWESOME</text>
+    <text x="108" y="495" font-size="112" letter-spacing="-4" font-weight="700" fill="url(#accent)">ASTRA</text>
+    <rect x="114" y="548" width="368" height="4" rx="2" fill="url(#accent)"/>
+    <text x="110" y="625" font-size="47" letter-spacing="4" font-weight="500">REAL USE CASES</text>
+    <text x="112" y="806" font-size="27" letter-spacing="6" font-weight="600" fill="#c0c9ee">EVIDENCE OVER HYPE</text>
+  </g>
+
+  <rect x="35" y="35" width="1602" height="871" rx="28" fill="none" stroke="#9aaaff" stroke-opacity="0.13" stroke-width="2"/>
+</svg>
