@@ -11,6 +11,16 @@
 
 </div>
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=u_fguVP6nSk">
+    <img src="images/video-41-thumbnail.png" alt="GPT-6 Astra Just Crossed a Line Even OpenAI Is Scared Of" width="640">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=u_fguVP6nSk"><b>📺 GPT-6 Astra Just Crossed a Line Even OpenAI Is Scared Of →</b></a>
+</p>
+
 ## Related Projects
 
 - [awesome-claude-fable-5](https://github.com/Anil-matcha/awesome-claude-fable-5) — The sibling high-signal repository whose layout inspired this collection.
