@@ -18,6 +18,7 @@
 - [awesome-generative-ai-apps](https://github.com/Anil-matcha/awesome-generative-ai-apps) — 50+ production-ready AI SaaS templates for turning model workflows into applications.
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Practical OpenAI API examples and patterns.
 - [OpenAI API documentation](https://developers.openai.com/api/docs) — Current API, model, tools, and production guidance.
+- [GPT-6 Astra on MuAPI](https://muapi.ai/gpt-6-astra) — Access `gpt-6-astra` through MuAPI's unified media/model API alongside other generative models, with automatic failover.
 
 ## ✨ Introduction
 
@@ -89,6 +90,8 @@ print(response.output_text)
 
 See the [official reasoning examples](https://developers.openai.com/api/docs/guides/reasoning) and [Responses API migration guide](https://developers.openai.com/api/docs/guides/migrate-to-responses) for production request patterns.
 
+For projects that already call multiple generative APIs through one key, [MuAPI](https://muapi.ai/gpt-6-astra) exposes `gpt-6-astra` alongside other providers with automatic failover — useful when Astra is one model in a larger multi-model pipeline rather than the only dependency.
+
 ## 📑 Menu
 
 | Section | Cases |
@@ -99,6 +102,7 @@ See the [official reasoning examples](https://developers.openai.com/api/docs/gui
 | [🖥️ Computer Use and Browser Workflows](#computer-use-and-browser-workflows) | Case 10 |
 | [🛡️ Cyber Defense and Safety](#cyber-defense-and-safety) | Cases 11–12 |
 | [🚀 Launch Evidence and Benchmarks](#launch-evidence-and-benchmarks) | Cases 13–15 |
+| [🌐 Community Use Cases and Reactions](#community-use-cases-and-reactions) | Cases 16–27 |
 | [🧪 Coding-Agent Guide](docs/coding-agent-use-cases.md) | Prompt templates and implementation checklist |
 | [🙏 Acknowledge](#acknowledge) | Attribution and correction policy |
 
@@ -321,6 +325,95 @@ OpenAI notes that these are maximum scores at any effort and that evaluations we
 
 **Evidence:** Official launch scorecard · **Date:** 2026-09-03
 
+<a id="community-use-cases-and-reactions"></a>
+## 🌐 Community Use Cases and Reactions
+
+These cases are **not OpenAI-published material.** Each one is a named practitioner, company account, or public discussion thread using or evaluating `gpt-6-astra` in the open, captured shortly after the September 3, 2026 launch. Evidence labels below are `Community` (an individual's account of their own use), `Integration` (a vendor announcing production support), `Evaluation` (a third party running its own benchmark), or `Discussion` (an open thread with many independent reports). Treat every number here as a self-reported, unverified claim — re-run the workload yourself before relying on it.
+
+<a id="case-16"></a>
+### Case 16: [GitHub Copilot: General Availability for Agentic Coding](https://x.com/github/status/2095971389190885815)
+
+**GitHub shipped GPT-6 Astra into Copilot (app, CLI, and VS Code) the day after launch**, positioning it for long-horizon, autonomous coding. GitHub's own internal testing described the model as planning and validating as it goes, batching diagnosis with verification, and confirming results before declaring a task done — which it says produced stronger results on large coding jobs in fewer steps than prior OpenAI models.
+
+**Evidence:** Integration (GitHub) · **Date:** 2026-09-04
+
+<a id="case-17"></a>
+### Case 17: [Devin (Cognition): Cost and Test-Quality Gains on Agentic Coding](https://x.com/cognition/status/2095597759202037925)
+
+**Cognition added GPT-6 Astra to Devin and published its own FrontierCode 1.1 numbers**: within 0.4 points of the prior frontier model at a 64% lower cost, plus a new internal-benchmark best for generating more comprehensive tests, clearer reports, and better video evidence of the work. Cognition ran a follow-up giveaway of 50 Devin Max plans tied to the release.
+
+**Evidence:** Integration and internal evaluation (Cognition) · **Date:** 2026-09-03
+
+<a id="case-18"></a>
+### Case 18: [Box: Industry-by-Industry Enterprise Knowledge-Work Eval](https://x.com/levie/status/2095598710311067716)
+
+**Box CEO Aaron Levie published a detailed before/after comparison** against the prior OpenAI model on Box's hardest internal enterprise eval, with per-industry deltas: media & entertainment 48%→100%, technology 69%→97%, legal 69%→93%, healthcare 53%→77%, energy 82%→97%. The post includes specific failure/success examples per industry (e.g., GPT-6 Astra separately assessed an NDA liability cap's *structure* versus its *amount* and cited the exact policy clause, where the prior model reached the same conclusion without citing it).
+
+**Evidence:** Integration and internal evaluation (Box) · **Date:** 2026-09-03
+
+<a id="case-19"></a>
+### Case 19: [Arc Prize: ARC-AGI-3 Benchmark Result and Discussion](https://arcprize.org/blog/astra)
+
+**Arc Prize ran GPT-6 Astra against its ARC-AGI-3 interactive-reasoning benchmark** and published results independent of OpenAI's own launch material; the write-up drew a 155-comment discussion on Hacker News comparing the score against other frontier models and probing whether gains reflect general reasoning or benchmark-specific tuning.
+
+**Evidence:** Evaluation (Arc Prize) · **Date:** 2026-09-04 (discussion thread)
+
+<a id="case-20"></a>
+### Case 20: [CodeRabbit: Code Review Gains, Privacy, and Cost Trade-offs](https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation)
+
+**CodeRabbit evaluated GPT-6 Astra specifically for automated code review** rather than code generation, publishing a breakdown of review-quality gains alongside the privacy posture and per-review cost trade-offs of switching a review pipeline to the new model. This is a useful counterpoint to generation-focused benchmarks: it evaluates the model in a narrower, verification-oriented role.
+
+**Evidence:** Evaluation (CodeRabbit) · **Date:** 2026-09 (Hacker News discussion, 68 comments)
+
+<a id="case-21"></a>
+### Case 21: [Hands-On Review Across Games, Code, Writing, and Browser Control](https://x.com/MatthewBerman/status/2095595892464333065)
+
+**AI reviewer Matthew Berman published an early-access hands-on thread** covering games, code, writing, browser control, presentations, and general knowledge work. His specific claims: browser control is "another level and significantly faster" than the prior model; the model tends to run for ~30 minutes unattended unless prompts add explicit stopping/scope detail; writing still carries some residual "AI smell"; and design output reuses prior-model color/layout habits unless steered away from them.
+
+**Evidence:** Community (independent reviewer) · **Date:** 2026-09-03
+
+<a id="case-22"></a>
+### Case 22: [Independent Multi-Agent Coding Benchmark: Cost and Speed Claims](https://x.com/leo_linsky/status/2096292987479404737)
+
+**A third-party eval team ran GPT-6 Astra through 100 unsaturated multi-agent coding environments** where models compete and cooperate on open-ended tasks. Their reported result: GPT-6 Astra beat the next-best model by a wide margin while running about 80% cheaper and 30% faster in agentic coding — with the caveat that these are the eval team's own environments, not a published, independently reproducible benchmark.
+
+**Evidence:** Evaluation (independent eval team) · **Date:** 2026-09-05
+
+<a id="case-23"></a>
+### Case 23: [One-Shot 3D Game Generation with an Image-Gen Trick](https://x.com/anshuc/status/2096008083826725132)
+
+**A developer reported one-shotting a 3D game in 45 minutes** for a small fraction of their usage quota, and described the specific technique used to get better in-game graphics: generating reference art with an image model first, then having Astra build the 3D scene around it. Worth citing here specifically because the trick is reproducible and named, not just a capability claim.
+
+**Evidence:** Community · **Date:** 2026-09-04
+
+<a id="case-24"></a>
+### Case 24: [Multi-Agent Simulation That Kept Running Unattended](https://x.com/mattshumer_/status/2095596175705399482)
+
+**A developer asked Astra to build an Unreal Engine world populated by Astra-controlled agents that had to cooperate to survive**, then reported the simulation kept running and generating in-character dialogue between the agents a day later without further prompting. Useful as a concrete, dated data point on unattended long-horizon agentic behavior — cite it as a single observed instance, not a general property.
+
+**Evidence:** Community · **Date:** 2026-09-03
+
+<a id="case-25"></a>
+### Case 25: [Computer-Use Control of a Real Painting Application](https://x.com/taiyaki_sun/status/2096149368193839455)
+
+**A digital artist handed Astra a hand-drawn line sketch and asked it to operate CLIP Studio Paint directly** — layer creation, canvas zoom, tool/pen selection, and coloring — with the artist only observing. The post includes concrete cost detail: on the $100/month Pro plan at maximum reasoning effort, the task consumed roughly 21 percentage points of the weekly quota (78% → 57%). A grounded example of computer-use quota cost for a real creative application, not a browser demo.
+
+**Evidence:** Community · **Date:** 2026-09-05
+
+<a id="case-26"></a>
+### Case 26: [Reported Token Cost and Time for a Single Complex Task](https://x.com/haider1/status/2096252283168456958)
+
+**A user asked Astra (at `max` reasoning effort) to reconstruct a news event as a cinematic 3D scene** and reported the exact resource cost: 44 minutes wall-clock, 6.73M tokens, consuming about 15% of their weekly usage allowance. Cite this specifically when a reader needs a real order-of-magnitude cost reference for a `max`-effort generative task, since OpenAI's own materials do not publish comparable end-to-end task costs.
+
+**Evidence:** Community · **Date:** 2026-09-05
+
+<a id="case-27"></a>
+### Case 27: [Community Reaction: Career-Impact and Domain-Expansion Discussions](https://www.reddit.com/r/singularity/comments/1w6m7hr/gpt6_astra_is_actually_nuts_for_electrical/)
+
+**Two threads worth reading together for the debate they generated, not just the capability claim.** One ([r/singularity](https://www.reddit.com/r/singularity/comments/1w6m7hr/gpt6_astra_is_actually_nuts_for_electrical/)) reports Astra doing circuit design, verification, and chip-architecture tradeoff work, read by commenters as evidence the model is reaching into domains previously considered safe from automation. The other ([r/developersIndia](https://www.reddit.com/r/developersIndia/comments/1w6x5eq/gpt_6o_astra_is_insanely_good_good_alternative/)) is software engineers debating career implications after hands-on use across "the entire development loop." Include these to represent practitioner sentiment and labor-market concern, which the official material does not address.
+
+**Evidence:** Discussion (Reddit, r/singularity and r/developersIndia) · **Date:** 2026-09-03/04
+
 ## ⚖️ Practical Limits
 
 - **High capability does not mean unattended deployment.** Keep human review for irreversible, financial, legal, medical, production, and security-sensitive actions.
@@ -337,7 +430,7 @@ Add a case when it contains a concrete workflow, prompt, integration, evaluation
 Please include:
 
 - a descriptive title and a direct source link;
-- an evidence label: `Official`, `Community`, `Demo`, `Tutorial`, `Integration`, or `Evaluation`;
+- an evidence label: `Official`, `Community`, `Demo`, `Tutorial`, `Integration`, `Evaluation`, or `Discussion`;
 - the model surface and model ID when an API request is involved;
 - the publication or observation date;
 - the prompt, tool contract, benchmark method, or reproduction steps when available;
