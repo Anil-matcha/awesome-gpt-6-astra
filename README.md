@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=u_fguVP6nSk">
-    <img src="images/video-41-thumbnail.png" alt="GPT-6 Astra Just Crossed a Line Even OpenAI Is Scared Of" width="640">
+    <img src="https://img.youtube.com/vi/u_fguVP6nSk/maxresdefault.jpg" alt="GPT-6 Astra Just Crossed a Line Even OpenAI Is Scared Of" width="640">
   </a>
 </p>
 
