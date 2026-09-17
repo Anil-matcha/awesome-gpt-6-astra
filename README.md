@@ -26,6 +26,7 @@
 - [awesome-claude-fable-5](https://github.com/Anil-matcha/awesome-claude-fable-5) — The sibling high-signal repository whose layout inspired this collection.
 - [awesome-claude-fable-5-1](https://github.com/Anil-matcha/awesome-claude-fable-5-1) — A launch-evidence and migration collection for a different frontier model family.
 - [awesome-generative-ai-apps](https://github.com/Anil-matcha/awesome-generative-ai-apps) — 50+ production-ready AI SaaS templates for turning model workflows into applications.
+- [awesome-jev-by-typesafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) — Evidence-backed TypeSafe Jev workflows for typed, confidence-aware decisions inside software.
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Practical OpenAI API examples and patterns.
 - [OpenAI API documentation](https://developers.openai.com/api/docs) — Current API, model, tools, and production guidance.
 - [GPT-6 Astra on MuAPI](https://muapi.ai/gpt-6-astra) — Access `gpt-6-astra` through MuAPI's unified media/model API alongside other generative models, with automatic failover.
