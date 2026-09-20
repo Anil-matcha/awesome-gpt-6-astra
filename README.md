@@ -26,6 +26,7 @@
 - [awesome-claude-fable-5](https://github.com/Anil-matcha/awesome-claude-fable-5) — The sibling high-signal repository whose layout inspired this collection.
 - [awesome-claude-fable-5-1](https://github.com/Anil-matcha/awesome-claude-fable-5-1) — A launch-evidence and migration collection for a different frontier model family.
 - [awesome-gemini-4-pro](https://github.com/Anil-matcha/awesome-gemini-4-pro) — Evidence-led Gemini frontier-model use cases, prompts, evaluations, and release tracking.
+- [awesome-muse-bot](https://github.com/Anil-matcha/awesome-muse-bot) — copy-paste Muse agent briefs for practical, permission-aware workflows.
 - [awesome-generative-ai-apps](https://github.com/Anil-matcha/awesome-generative-ai-apps) — 50+ production-ready AI SaaS templates for turning model workflows into applications.
 - [awesome-jev-by-typesafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) — Evidence-backed TypeSafe Jev workflows for typed, confidence-aware decisions inside software.
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Practical OpenAI API examples and patterns.
