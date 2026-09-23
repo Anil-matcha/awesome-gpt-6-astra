@@ -376,7 +376,7 @@ These cases are **not OpenAI-published material.** Each one is a named practitio
 
 **CodeRabbit evaluated GPT-6 Astra specifically for automated code review** rather than code generation, publishing a breakdown of review-quality gains alongside the privacy posture and per-review cost trade-offs of switching a review pipeline to the new model. This is a useful counterpoint to generation-focused benchmarks: it evaluates the model in a narrower, verification-oriented role.
 
-**Evidence:** Evaluation (CodeRabbit) · **Date:** 2026-09 (Hacker News discussion, 68 comments)
+**Evidence:** Evaluation (CodeRabbit) · **Date:** 2026-09-04 · [Hacker News discussion](https://news.ycombinator.com/item?id=49572875)
 
 <a id="case-21"></a>
 ### Case 21: [Hands-On Review Across Games, Code, Writing, and Browser Control](https://x.com/MatthewBerman/status/2095595892464333065)
