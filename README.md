@@ -1,129 +1,102 @@
-# Free AI Social Media Scheduler
-
-[![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNHYtNGgtMnYtMmg0djZoLTJ6bTAtOFY2aDJ2MmgtMnoiLz48L3N2Zz4=)](https://muapi.ai?utm_source=github&utm_medium=badge&utm_campaign=free-ai-social-media-scheduler)
-
-
-[![Stars](https://img.shields.io/github/stars/Anil-matcha/Free-AI-Social-Media-Scheduler?style=flat-square)](https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
-
-A free, open-source AI social media scheduler built with Next.js. Upload videos, schedule posts, and publish directly to YouTube and TikTok — no subscription required. Self-hostable alternative to Buffer, Hootsuite, Later, and Sprout Social.
-
 <p align="center">
-  <a href="https://github.com/Anil-matcha/awesome-generative-ai-apps">
-    <img src="https://img.shields.io/badge/Part%20of-Awesome%20Generative%20AI%20Apps-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Awesome Generative AI Apps">
-  </a>
+  <img src="https://img.shields.io/badge/open%20source-MIT-4f46e5?style=flat-square" alt="MIT license">
+  <img src="https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js" alt="Next.js 16">
+  <a href="https://github.com/Anil-matcha/Postiz-cheap/stargazers"><img src="https://img.shields.io/github/stars/Anil-matcha/Postiz-cheap?style=flat-square" alt="GitHub stars"></a>
 </p>
 
-> 🎨 **[Explore 50+ more open-source AI apps →](https://github.com/Anil-matcha/awesome-generative-ai-apps)**
+<h1 align="center">Postiz-cheap</h1>
 
-## Related Projects
+<p align="center">
+  A self-hostable, open-source social media scheduler for creators who want a simpler, lower-cost alternative to Postiz.
+</p>
 
-- [MuAPI playground](https://muapi.ai/playground) — Generate the images and videos scheduled by this app.
-- [MuAPI access keys](https://muapi.ai/access-keys) — Create the API key used for generative content.
-- [Awesome-GPT-Image-2-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) — Curated GPT-Image-2 prompts for generating social media visuals
-- [Open-AI-UGC](https://github.com/Anil-matcha/Open-AI-UGC) — Generate AI UGC video ads to schedule across your social channels
-- [AI-Influencer-Generator](https://github.com/SamurAIGPT/AI-Influencer-Generator) — Create AI influencer content to post on a schedule
-- [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Free open-source studio for 200+ AI image & video models
-- [ai-creator-academy](https://github.com/Anil-matcha/ai-creator-academy) — free curriculum teaching creators how to monetize AI-generated content before scheduling and distributing it
+Postiz-cheap brings a content calendar, post composer, AI writing assistant, and social publishing into one Next.js app. Run it on your own infrastructure and keep control of your workflow. The app is MIT licensed; usage of external AI, hosting, and social publishing services may still cost money.
 
----
+## What you can do
 
-## Supported Platforms
+- Plan and edit posts in a calendar, then publish now or schedule them.
+- Draft platform-specific copy with the AI post writer or the conversational social marketing agent.
+- Connect social accounts and manage posts from one workspace.
+- Preview copy for different platforms before publishing.
+- Track scheduled, processing, published, and failed posts.
+- Use publishing integrations wired for YouTube, TikTok, Instagram, Facebook, X, LinkedIn, Threads, and Pinterest.
 
-| Platform | Status |
-|----------|--------|
-| YouTube | ✅ Live |
-| TikTok | ✅ Live |
-| Instagram (Reels & Posts) | ✅ Live |
-| Facebook (Pages & Reels) | ✅ Live |
-| X (Twitter) | ✅ Live |
-| LinkedIn | ✅ Live |
-| Threads | ✅ Live |
-| Pinterest | ✅ Live |
+## Cost and provider requirements
 
-## Features
+The scheduler itself has no required monthly subscription when you self-host it. It currently uses MuAPI for AI features, account connections, media uploads, and publishing, so you need a MuAPI API key and provider usage charges may apply. You also cover hosting, database, and any fees charged by social networks or other providers.
 
-- **AI Social Marketing Agent** (`/agents`) — conversational AI marketing assistant with persistent context memory across conversations:
-  - **3-Panel Workspace** — multi-channel selector on the left, interactive chat in the center, and conversation history threads on the right.
-  - **Platform-Tailored Copy** — generates viral hooks, high-converting captions, and hashtag strategies tailored to specific character limits and algorithms.
-  - **1-Click Post Proposals** — prepares structured post cards ready to open in the Composer and schedule with one click.
-  - **Rich Markdown Rendering** — full typography with headings, styled bullet points, code blocks, and expandable JSON payloads.
-  - **Context Memory** — retains tone, campaign guidelines, and brand instructions across the last 10 messages.
-- **Video & Post Scheduling** — upload media or paste a URL, pick target platforms and times, and publish automatically.
-- **Multi-Account Management** — connect and manage multiple social accounts (YouTube, TikTok, X, LinkedIn) from a unified dashboard.
-- **YouTube Controls** — category selection, privacy (public/private/unlisted), made-for-kids flags.
-- **TikTok Controls** — privacy settings, comment, duet, and stitch toggles.
-- **Credits System** — Stripe-powered pay-as-you-go credits for scheduling posts.
-- **Post History & Calendar** — track scheduled, published, and failed posts with status indicators and direct published URLs.
-- **Self-Hostable** — single Next.js 16 app with Turbopack, no microservices or complex external infra required.
+This repository contains the self-hosted application. It does not include a hosted Postiz-cheap service. Postiz-cheap is an independent project and is not affiliated with or endorsed by Postiz.
 
-## Tech Stack
+## How it works
 
-- **Framework:** Next.js 16 (App Router + Turbopack)
-- **Auth:** NextAuth.js (Google OAuth)
-- **Database:** PostgreSQL + Prisma ORM
-- **Payments:** Stripe
-- **AI / Publishing:** MuAPI
-- **Markdown:** `react-markdown` + `remark-gfm`
-- **Styling:** Tailwind CSS + Framer Motion
+- **App:** Next.js 16 with the App Router
+- **Database:** PostgreSQL with Prisma
+- **Sign-in:** Google OAuth through NextAuth
+- **AI and social publishing:** MuAPI
+- **Optional credit checkout:** Stripe
 
-## Quick Start
+Scheduled posts are stored in PostgreSQL and submitted through the app's post-processing route. The current project does not include a separate always-on job worker; review the scheduling flow and hosting setup before relying on unattended production publishing.
 
-### 1. Clone the repo
+## Run it locally
+
+### Requirements
+
+- Node.js and npm
+- A PostgreSQL database
+- Google OAuth credentials
+- A MuAPI API key for AI and social publishing
+
+### 1. Clone and install
 
 ```bash
-git clone https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler
-cd Free-AI-Social-Media-Scheduler
+git clone https://github.com/Anil-matcha/Postiz-cheap.git
+cd Postiz-cheap
 npm install
-```
-
-### 2. Set up environment variables
-
-```bash
 cp .env.example .env
 ```
 
-Fill in `.env`:
+### 2. Configure environment variables
+
+Set the required database, authentication, Google OAuth, and MuAPI values in `.env`:
 
 ```env
-DATABASE_URL="postgresql://user:password@host:port/dbname?pgbouncer=true"
-DIRECT_URL="postgresql://user:password@host:port/dbname"
+DATABASE_URL="postgresql://user:password@host:5432/postiz_cheap?pgbouncer=true"
+DIRECT_URL="postgresql://user:password@host:5432/postiz_cheap"
 
 NEXTAUTH_URL="http://localhost:3000"
-NEXTAUTH_SECRET="your_nextauth_secret"
+NEXTAUTH_SECRET="replace_with_a_long_random_secret"
 
 GOOGLE_CLIENT_ID="your_google_client_id"
 GOOGLE_CLIENT_SECRET="your_google_client_secret"
 
 MUAPIAPP_API_KEY="your_muapi_api_key"
-WEBHOOK_URL="your_webhook_url"
-
-STRIPE_SECRET_KEY="your_stripe_secret_key"
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="your_stripe_publishable_key"
-STRIPE_WEBHOOK_SECRET="your_stripe_webhook_secret"
+WEBHOOK_URL="http://localhost:3000"
 ```
 
-### 3. Run migrations and start
+In Google Cloud, add `http://localhost:3000/api/auth/callback/google` as an authorized redirect URI. Stripe variables in `.env.example` are only needed if you want to enable credit checkout on your own deployment.
+
+### 3. Prepare the database and start
 
 ```bash
-npx prisma migrate deploy
+npx prisma db push
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Why this over Buffer or Hootsuite?
+## Project structure
 
-- **Video-first** — built specifically for YouTube and TikTok video publishing workflows
-- **No per-seat pricing** — credits model, no $19–$99/month subscription
-- **Simple to self-host** — single Next.js app, runs with one `npm run dev`
-- **Open source** — MIT license, fork and extend freely
+```text
+src/app/          Next.js pages and API routes
+src/components/   Calendar, composer, navigation, and agent UI
+src/lib/          Auth, database, billing, and integration services
+prisma/           PostgreSQL schema
+```
 
 ## Contributing
 
-Open an issue or submit a pull request. Star the repo to stay updated as new platforms launch.
+Issues and pull requests are welcome. Keep provider credentials out of commits, and describe which social platform or workflow your change affects.
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+MIT. See [LICENSE](LICENSE).

@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Free AI Social Media Scheduler - MuAPI",
-  description: "Schedule and publish AI-generated videos directly to YouTube and TikTok.",
+  title: "Postiz-cheap | Open-source social media scheduler",
+  description: "Self-host Postiz-cheap, an open-source social media scheduler with a content calendar, AI writing, and publishing integrations.",
 };
 
 export default function RootLayout({ children }) {

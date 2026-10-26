@@ -9,10 +9,9 @@ import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 
 const PLANS = [
-  { id: "basic", name: "Basic Pack", price: "$5", credits: 100, description: "Perfect for testing custom prompts and exploring styles." },
-  { id: "standard", name: "Standard Pack", price: "$10", credits: 250, description: "Ideal for regular creators wanting high resolution outputs." },
-  { id: "pro", name: "Professional Pack", price: "$20", credits: 600, description: "Designed for power users demanding batch exports and high speed.", popular: true },
-  { id: "business", name: "Business Pack", price: "$50", credits: 2000, description: "Maximum value pack for agency workflows and large volume generations." }
+  { id: "starter", name: "Starter Pack", price: "$5", credits: 100, description: "A small top-up for occasional publishing." },
+  { id: "pro", name: "Pro Pack", price: "$15", credits: 500, description: "For creators publishing on a regular schedule.", popular: true },
+  { id: "business", name: "Business Pack", price: "$45", credits: 2000, description: "More room for high-volume, multi-channel publishing." }
 ];
 
 export default function Pricing() {
@@ -50,11 +49,11 @@ export default function Pricing() {
         <div className="text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 border border-primary/20 rounded-full mb-1">
             <FaInfoCircle className="text-primary text-xs" />
-            <span className="text-[10px] font-black text-primary uppercase tracking-widest">Pricing Plans</span>
+            <span className="text-[10px] font-black text-primary uppercase tracking-widest">One-time credit packs</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-black tracking-tight uppercase">Buy Credits Packs</h1>
+          <h1 className="text-3xl sm:text-4xl font-black tracking-tight">Top up publishing credits</h1>
           <p className="text-xs sm:text-sm text-secondary-text max-w-lg leading-relaxed">
-            Purchase flexible credit packages to perform high-resolution predictions. Keep all profits — we handle AI infrastructure.
+            No recurring subscription. One credit covers one platform publish. MuAPI usage for AI and social publishing may have separate provider charges.
           </p>
         </div>
 
@@ -80,7 +79,7 @@ export default function Pricing() {
                 </div>
                 
                 <div className="text-xs bg-bg-page/50 border border-divider/30 p-3 rounded text-center font-extrabold text-primary">
-                  {plan.credits} Art Credits
+                  {plan.credits} Publishing Credits
                 </div>
 
                 <p className="text-xs text-secondary-text leading-relaxed font-medium min-h-[3rem]">{plan.description}</p>
@@ -88,15 +87,15 @@ export default function Pricing() {
                 <ul className="space-y-2 border-t border-divider/30 pt-4 text-xs font-semibold text-secondary-text">
                   <li className="flex items-center gap-2">
                     <FaCheck className="text-primary text-[10px]" />
-                    <span>Dynamic aspect ratios</span>
+                    <span>Use credits as you publish</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <FaCheck className="text-primary text-[10px]" />
-                    <span>HD image downloads</span>
+                    <span>Post to connected channels</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <FaCheck className="text-primary text-[10px]" />
-                    <span>No subscription required</span>
+                    <span>No recurring payment</span>
                   </li>
                 </ul>
               </div>
@@ -108,7 +107,7 @@ export default function Pricing() {
                   plan.popular ? "bg-primary text-white hover:bg-primary-hover shadow-primary/15" : "bg-bg-page hover:bg-bg-card text-primary-text border border-divider"
                 }`}
               >
-                {loadingPlan === plan.id ? "Loading checkout..." : "Purchase Credits"}
+                {loadingPlan === plan.id ? "Loading checkout..." : "Get credit pack"}
               </button>
             </div>
           ))}

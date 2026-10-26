@@ -176,15 +176,15 @@ export default function WorkspaceDashboard() {
         <div className="max-w-2xl text-center space-y-6">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-400 text-xs font-medium">
             <FaRocket className="text-[11px] text-zinc-300" />
-            <span>Social Media Scheduling Studio</span>
+            <span>Open-source Postiz alternative</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight text-zinc-100 leading-tight">
-            Schedule, preview & publish across all your channels
+            Plan and publish social posts from one calendar
           </h1>
 
           <p className="text-xs sm:text-sm text-zinc-400 max-w-lg mx-auto leading-relaxed">
-            Manage YouTube, TikTok, Instagram, X (Twitter), and LinkedIn from a clean interactive content calendar with real-time feed previews.
+            Self-host Postiz-cheap to organize posts across YouTube, TikTok, Instagram, Facebook, X, LinkedIn, Threads, and Pinterest. MuAPI powers AI and publishing, and provider charges may apply.
           </p>
 
           <div className="flex items-center justify-center pt-2">
@@ -216,10 +216,10 @@ export default function WorkspaceDashboard() {
                 <FaShareAlt />
               </div>
               <h4 className="text-xs font-medium text-zinc-200">
-                Live Feed Mockups
+                Platform Previews
               </h4>
               <p className="text-[11px] text-zinc-400 leading-relaxed">
-                Real-time previews for YouTube, TikTok, Instagram, X, and LinkedIn.
+                Preview drafts for YouTube, TikTok, Instagram, X, and LinkedIn before publishing.
               </p>
             </div>
 
@@ -228,10 +228,10 @@ export default function WorkspaceDashboard() {
                 <FaRocket />
               </div>
               <h4 className="text-xs font-medium text-zinc-200">
-                Automated Publishing
+                Post Status Tracking
               </h4>
               <p className="text-[11px] text-zinc-400 leading-relaxed">
-                Scheduled background queues publish automatically to connected accounts.
+                Review scheduled, processing, published, and failed posts in the calendar.
               </p>
             </div>
           </div>
