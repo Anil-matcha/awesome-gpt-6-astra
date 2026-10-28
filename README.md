@@ -24,6 +24,7 @@
 - [awesome-claude-fable-5](https://github.com/Anil-matcha/awesome-claude-fable-5) — The sibling high-signal repository whose layout inspired this collection.
 - [awesome-claude-fable-5-1](https://github.com/Anil-matcha/awesome-claude-fable-5-1) — A launch-evidence and migration collection for a different frontier model family.
 - [awesome-gemini-4-pro](https://github.com/Anil-matcha/awesome-gemini-4-pro) — Evidence-led Gemini frontier-model use cases, prompts, evaluations, and release tracking.
+- [awesome-gemini-4-carbon](https://github.com/Anil-matcha/awesome-gemini-4-carbon) — Source-linked tracker for Google's Gemini 4 Carbon: cyber and coding benchmarks, pricing, restricted-access status.
 - [awesome-meta-muse-agent](https://github.com/Anil-matcha/awesome-meta-muse-agent) — copy-paste Muse agent briefs for practical, permission-aware workflows.
 - [awesome-generative-ai-apps](https://github.com/Anil-matcha/awesome-generative-ai-apps) — 50+ production-ready AI SaaS templates for turning model workflows into applications.
 - [awesome-jev-by-typesafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) — Evidence-backed TypeSafe Jev workflows for typed, confidence-aware decisions inside software.
